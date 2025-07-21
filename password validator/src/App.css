@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+input[type="password"]::-webkit-password-reveal-button,
+input[type="password"]::-ms-reveal {
+  display: none;
+}

@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+body {
+  background-color:#282c34;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid #61dafb;
+  border-radius: 8px;
+}
+
+.counter-section, .todos-section {
+  padding: 1rem;
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  color: #282c34;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+hr {
+  border-color: #444;
+  margin: 2rem 0;
+}
+
+.note {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
